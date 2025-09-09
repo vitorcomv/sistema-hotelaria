@@ -27,8 +27,7 @@ namespace sistema_hotelaria.Models
             }
             else
             {
-                // TODO: Retornar uma exception caso a capacidade seja menor que o número de hóspedes recebido
-                // *IMPLEMENTE AQUI*
+                throw new Exception("A capacidade da suíte é menor do que o número de hóspedes informado.");
             }
         }
 
